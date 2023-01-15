@@ -1,0 +1,551 @@
+.Port{  
+    position: relative;
+    text-align: center;
+    top: 17px;
+    padding: -3%;
+    margin: -8px;
+    transition: 700ms;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream{
+    display:flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+    flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .container .box .dream{
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: inline-flex;
+    font-weight: bold;
+    vertical-align: top;
+    width: 97;
+  }
+  .main {
+    background: black;
+    flex: 1;
+    text-align: center;
+  }
+  .image {
+    position: relative;
+    background: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 97%;
+    flex: 1;
+    height: 100%;
+  }
+
+@media (min-width: 1200px) {
+    .Biography{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 95%;
+        font-family: 'Roboto', sans-serif;
+        top: 38px;
+        cursor: pointer;
+        display: inline-block;
+        padding: 1px;
+        border-bottom: 2px solid white;
+        font-weight: bolder;
+        transition: 300ms;
+        left: 3px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Biography{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 95%;
+        font-family: 'Roboto', sans-serif;
+        top: -225px;
+        cursor: pointer;
+        display: inline-block;
+        padding: 1px;
+        font-weight: bolder;
+        border-radius: 15px;
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Photos{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        top: 40px;
+        font-size: 95%;
+        left: 105px;
+        cursor: pointer;
+        display: inline-block;
+        border-bottom: 2px solid white;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Photos{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        top: -200px;
+        font-size: 95%;
+        left: 160px;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bolder;
+        border-bottom: 2px solid white;
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Work{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 97%;
+        font-family: 'Roboto', sans-serif;
+        top: 39px;
+        left: 185px;
+        cursor: pointer;
+        display: inline-block;
+        border-bottom: 2px solid white;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Work{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 97%;
+        left: 115px;
+        font-family: 'Roboto', sans-serif;
+        top: -200px;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bolder;
+        border-bottom: 2px solid white;
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Bibliography{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: tomato; 
+        position: absolute;
+        font-size: 97%;
+        font-family: 'Roboto', sans-serif;
+        top: 39px;
+        left: 253px;
+        cursor: pointer;
+        display: inline-block;
+        border-bottom: 2px solid tomato;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Bibliography{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 97%;
+        left: 115px;
+        font-family: 'Roboto', sans-serif;
+        top: -200px;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bolder;
+        border-bottom: 2px solid white;
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 1200px) {
+    .links{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 97%;
+        font-family: 'Roboto', sans-serif;
+        top: 39px;
+        left: 375px;
+        cursor: pointer;
+        display: inline-block;
+        border-bottom: 2px solid white;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+}
+
+@media (max-width: 1200px) {
+    .links{
+        display: flex;
+        border: none;
+        padding: 0;
+        border: none;
+        background: none;
+        color: white; 
+        position: absolute;
+        font-size: 97%;
+        left: 120px;
+        font-family: 'Roboto', sans-serif;
+        top: -200px;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bolder;
+        border-bottom: 2px solid white;
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 600px) {
+    .Login{
+        float: right;
+        display: flex;
+        border: none;
+        background-color: black;
+        border: 1px black;
+        margin: 13px;
+        padding: 10px;
+        color: orange; 
+        position: relative;
+        font-size: 97%;
+        font-family: 'Roboto', sans-serif;
+        top: -33px;
+        cursor: pointer;
+        font-weight: bolder;
+        border-radius: 15px;
+        transition: 300ms;
+    }
+}
+
+@media (max-width: 600px) {
+    .Login{
+        float: right;
+        display: flex;
+        border: none;
+        position: relative;
+        top: -280px;
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(51, 9, 9);
+        overflow-x: hidden;
+        transition: 1s;
+        padding-top: 65px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: black;
+        background-color: white;
+        font-weight: bolder;
+        transition: 700ms;
+        margin-left: -30px;
+    }
+
+    .sidenav c {
+        position: absolute;
+        bottom: 60px;
+        margin-left: 8px;
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+
+    .sidenav c:hover {
+        position: absolute;
+        bottom: 67px;
+        margin-left: 8px;
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 30px;
+        transition: 300ms;
+    }
+
+    .sidenav .closebtn:hover {
+        position: absolute;
+        color: white;
+        right: 10px;
+        top: 0;
+        background-color: rgb(51, 9, 9);
+        font-size: 30px;
+        transition: 300px;
+    }
+
+    .openbutton {
+        position: absolute;
+        color: white;
+        border-radius: 50%;
+        height: 25px;
+        width: 24px;
+        top: -1000%;
+        left: 12px;
+        transition-duration: 400ms;
+    }
+
+    .openbutton:hover {
+        position: absolute;
+        color: orange;
+        background-color: black;
+        border-radius: 15px;
+        padding: 10px;
+        height: 25px;
+        width: 24px;
+        transition-duration: 400ms;
+        top: -5px;
+        left: 2px;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(51, 9, 9);
+        overflow-x: hidden;
+        transition: 1s;
+        padding-top: 65px;   
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: black;
+        background-color: white;
+        font-weight: bolder;
+        transition: 700ms;
+        margin-left: -30px;
+    }
+    
+    .sidenav c {
+        position: absolute;
+        bottom: 60px;
+        margin-left: 8px;
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+    
+    .sidenav c:hover {
+        position: absolute;
+        bottom: 67px;
+        margin-left: 8px;
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        font-weight: bolder;
+        transition: 300ms;
+    }
+      
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 30px;
+        transition: 300ms;
+    }
+    
+    .sidenav .closebtn:hover {
+        position: absolute;
+        color: white;
+        right: 10px;
+        top: 0;
+        background-color: rgb(51, 9, 9);
+        font-size: 30px;
+        transition: 300px;
+    }
+    
+    .openbutton {
+        position: absolute;
+        color: white;
+        border-radius: 50%;
+        height: 25px;
+        width: 24px;
+        top: 34px;
+        left: 12px;
+        transition-duration: 400ms;
+    }
+    
+    .openbutton:hover {
+        position: absolute;
+        color: tomato;
+        background-color: black;
+        border-radius: 15px;
+        padding: 10px;
+        height: 40px;
+        top: 24px;
+        left: 2px;
+        width: 43px;
+        transition-duration: 400ms;
+  
+    }
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.yt{
+    position: fixed;
+    top: -3000px;
+}
+
+#preloader{
+    background: #000 url(/home/chris/Desktop/panephsthmio/Etos_3/Eksamino_5/Taixnnologies_www/Author_Site/book_preloader.gif) no-repeat center center;
+    background-size: 45%;
+    height: 150vh;
+    top: -200px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    transition-duration: 300ms;
+}
